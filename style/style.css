@@ -1,0 +1,41 @@
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+}
+td {
+  text-align: left;
+}
+div.menu {
+  background-color: whitesmoke;
+  overflow: auto;
+  white-space: nowrap;
+}
+div.menu a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+}
+
+div.menu a:hover {
+  background-color: wheat;
+}
+
+#titre{
+  color: red;
+  text-align: center;
+}
+#graph {
+  width: 700px;
+  height: 650px;
+  float: left;
+}
+#mesures {
+  position : relative;
+  float: left;
+  height: 600px;
+  overflow: auto;
+  width: 30%;
+}
