@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tension Mr Debry</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <script
+      type="text/javascript"
+      src="https://www.gstatic.com/charts/loader.js"
+    ></script>
+    <script type="text/javascript" src="javascript/buildTable.js"></script>
+    <script type="text/javascript" src="javascript/graph.js"></script>
+    <script type="text/javascript" src="javascript/loadjson.async.js"></script>
+  </head>
+  <body>
+    <div class="menu">
+      <a href="#" onclick="loadjson('fev-mars2018')">fev-mars2018</a
+      >
+      <a href="#" onclick="loadjson('nov-dec2018')">nov-dec2018</a>
+      <a href="#" onclick="loadjson('dec-janv2018')">dec-jan2018</a>
+    </div>
+    <div id="titre"></div>
+    <div id="mesures"></div>
+    <div id="graph"></div>
+  </body>
+</html>
