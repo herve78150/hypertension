@@ -25,6 +25,7 @@ async function loadjson(fichier) {
       google.charts.load("current", { packages: ["corechart", "line"] });
       google.charts.setOnLoadCallback(drawChart);
     }else{
+      console.log(response.status);
       $titre.innerHTML = `<h3>${fichier}: error ${response.status}= ${response.statusText}</h3>`;
       $table.innerHTML = '';
       $graph.innerHTML = '';
